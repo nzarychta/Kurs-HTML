@@ -1,9 +1,13 @@
-/*
-selektor{
-    właściwość : wartość
-}
 body{
-    backgrounfd
+    background-color: bisque;
 
- header{
-     
+    border: 2px dashed red
+}
+/*header który jest bezpośrednim dzieckiem body
+
+
+
+
+
+
+
