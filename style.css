@@ -1,7 +1,12 @@
 body{
     background-color: bisque;
-
+    margin:0;
     border: 2px dashed red
+    
+    
+}
+
+h1{text-align: center;
 }
 /*header który jest bezpośrednim dzieckiem body
 
