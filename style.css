@@ -7,11 +7,22 @@ body{
 }
 body > header {
     
-border: 15px solid rgba(255, 0, 0, 0.76);
+border: 15px solid rgba(185, 61, 61, 0.793);
 text-align: center;
-background-color: rgba(red, green, blue, alpha);
-
+background-color: rgba(185, 61, 61, 0.793)
+}
     
+
+
+nav ul{
+    border: 5px dashed red;
+    list-style-type:none;
+    padding: 0;
+    
+}
+
+nav ul li{
+    border: 5px dashed blue
 }
 
 
