@@ -18,8 +18,16 @@ nav ul{
     border: 5px dashed red;
     list-style-type:none;
     padding: 0;
+    height: 150px;
     
+    /*DISPLAY FLEX */
+display:flex;
+
+justify-content: space-around;
+
 }
+
+/*POJEDYNCZE PRZYCISKI (HOME, PROJEKTY, KONTAKT) */
 
 nav ul li{
     border: 5px dashed blue
