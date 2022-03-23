@@ -1,14 +1,19 @@
 body{
     background-color: bisque;
     margin:0;
-    border: 2px dashed red
     
+    
+    
+}
+body > header {
+    
+border: 15px solid rgba(255, 0, 0, 0.76);
+text-align: center;
+background-color: rgba(red, green, blue, alpha);
+
     
 }
 
-h1{text-align: center;
-}
-/*header który jest bezpośrednim dzieckiem body
 
 
 
