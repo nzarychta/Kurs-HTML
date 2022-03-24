@@ -92,6 +92,14 @@ nav ul li{
            padding:0 5px;
        }
 
+table{
+   background-color: beige;
+   cursor: pointer;
+   transition: 3s;
+   align-items: center;
+
+}
+  
 
 
 
