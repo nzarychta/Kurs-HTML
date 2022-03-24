@@ -1,8 +1,8 @@
 body{
-    background-color: bisque;
+    background-color:green;
     margin:0;
-    
- 
+}
+ *{box-sizing: border-box;}
     
 
 body > header {
@@ -17,6 +17,7 @@ background-color: rgba(153, 56, 56);
 nav{
     position:sticky;
     top:0;
+    background-color: aliceblue;
 
 }
 
@@ -33,7 +34,7 @@ display:flex;
 justify-content: space-evenly;
 align-items: center;
 /* właściwość do kopania flexa, zmiana row na kolumn powoduje zmianę ról między justify-content a align item*/
-flex-direction
+/* flex-direction */
 
 /* justify - content:
 FLEX START - domyślna wartość
@@ -66,7 +67,7 @@ nav ul li{
 /* styl elemntu po nakierownaiu na niego myszką */
     nav ul li:hover{
         background-color: rgb(48, 214, 229);
-        background-color: rgb(245, 207, 138);
+        background-color:azure (39, 84%, 75%);
         color:black;
 
         
