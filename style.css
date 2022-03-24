@@ -23,7 +23,19 @@ nav ul{
     /*DISPLAY FLEX */
 display:flex;
 
-justify-content: space-around;
+justify-content: space-evenly;
+align-items: center;
+/* właściwość do kopania flexa, zmiana row na kolumn powoduje zmianę ról między justify-content a align item*/
+flex-direction: column;
+
+/* justify - content:
+FLEX START - domyślna wartość
+flex end  - wyświetl nz koncu
+center - wyśrodkuj
+space around - taka sama przestrzeń wokół każdego dziecka 
+space between - przestrzeń tylko między elementami*/
+
+
 
 }
 
