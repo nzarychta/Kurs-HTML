@@ -2,9 +2,9 @@ body{
     background-color: bisque;
     margin:0;
     
+ 
     
-    
-}
+
 body > header {
     
 border: 15px solid rgba(185, 61, 61, 0.793);
@@ -14,6 +14,11 @@ background-color: rgba(153, 56, 56);
 }
     
 /*glówna nawigacja */
+nav{
+    position:sticky;
+    top:0;
+
+}
 
 nav ul{
     
@@ -28,7 +33,7 @@ display:flex;
 justify-content: space-evenly;
 align-items: center;
 /* właściwość do kopania flexa, zmiana row na kolumn powoduje zmianę ról między justify-content a align item*/
-flex-direction;
+flex-direction
 
 /* justify - content:
 FLEX START - domyślna wartość
@@ -44,7 +49,7 @@ space between - przestrzeń tylko między elementami*/
 /*POJEDYNCZE PRZYCISKI (HOME, PROJEKTY, KONTAKT) */
 
 nav ul li{
-    margin: 10px;;
+    margin: 10px;
     border: 5px solid rgb(192, 134, 58);
     padding: 5px 10px;
     background-color: rgb(100, 65, 48);
@@ -73,7 +78,18 @@ nav ul li{
         transition: none
     }
         
-    
+       /* POPUP COOKIES*/
+       .cookies{
+           border:5px dashed red;
+           position:fixed;
+           bottom:0;
+           width:100%;
+           background-color: rgb(245, 207, 138);
+           display:flex;
+           justify-content: space-between;
+           align-items: center;
+           padding:0 5px;
+       }
 
 
 
