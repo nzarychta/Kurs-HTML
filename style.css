@@ -9,16 +9,18 @@ body > header {
     
 border: 15px solid rgba(185, 61, 61, 0.793);
 text-align: center;
-background-color: rgba(185, 61, 61, 0.793)
+background-color: rgba(153, 56, 56);
+
 }
     
-
+/*glówna nawigacja */
 
 nav ul{
-    border: 5px dashed red;
+    
+    border: 15px solid red (143,26,26,0,);
     list-style-type:none;
     padding: 0;
-    height: 150px;
+    margin:0;
     
     /*DISPLAY FLEX */
 display:flex;
@@ -42,10 +44,36 @@ space between - przestrzeń tylko między elementami*/
 /*POJEDYNCZE PRZYCISKI (HOME, PROJEKTY, KONTAKT) */
 
 nav ul li{
-    border: 5px dashed blue
+    margin: 10px;;
+    border: 5px solid rgb(192, 134, 58);
+    padding: 5px 10px;
+    background-color: rgb(100, 65, 48);
+    /*color - kolor tła*/
+    color: blanchedalmond;
+    border-radius: 15px;
+    /*wygląd kursora*/
+    cursor: pointer;
+/* czas pojawiania się zmian*/
+    transition: 2s;
+
+
 }
+/* styl elemntu po nakierownaiu na niego myszką */
+    nav ul li:hover{
+        background-color: rgb(48, 214, 229);
+        background-color: rgb(245, 207, 138);
+        color:black;
 
-
+        
+    }
+    
+    nav ul li:active{
+        border-color: rgb(red, green, blue);
+        background-color: rgb(245, 207, 138);
+        transition: none
+    }
+        
+    
 
 
 
