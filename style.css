@@ -17,7 +17,7 @@ background-color: rgba(153, 56, 56);
 
 nav ul{
     
-    border: 15px solid red (143,26,26,0,);
+    border: 15px solid red;
     list-style-type:none;
     padding: 0;
     margin:0;
@@ -28,7 +28,7 @@ display:flex;
 justify-content: space-evenly;
 align-items: center;
 /* właściwość do kopania flexa, zmiana row na kolumn powoduje zmianę ról między justify-content a align item*/
-flex-direction: column;
+flex-direction;
 
 /* justify - content:
 FLEX START - domyślna wartość
