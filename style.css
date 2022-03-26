@@ -1,29 +1,30 @@
 body{
-    background-color:green;
+    background-color:rgb(83, 77, 77);
     margin:0;
 }
- *{box-sizing: border-box;}
+*{box-sizing: border-box;}
     
 
 body > header {
     
-border: 15px solid rgba(185, 61, 61, 0.793);
-text-align: center;
-background-color: rgba(153, 56, 56);
 
+text-align: center;
+background-color: rgb(83, 77, 77);
+font-family:'Courier New', Courier, monospace;
+font-size: x-large;
 }
     
 /*glówna nawigacja */
 nav{
     position:sticky;
     top:0;
-    background-color: aliceblue;
+    background-color: rgb(83, 77, 77);
 
 }
 
 nav ul{
     
-    border: 15px solid red;
+    border: 15px solid rgba(95, 6, 95, 0.89);
     list-style-type:none;
     padding: 0;
     margin:0;
@@ -51,22 +52,26 @@ space between - przestrzeń tylko między elementami*/
 
 nav ul li{
     margin: 10px;
-    border: 5px solid rgb(192, 134, 58);
+    border: 5px solid rgba(95, 6, 95, 0.89);
     padding: 5px 10px;
-    background-color: rgb(100, 65, 48);
+    background-color: rgb(145, 139, 139);
     /*color - kolor tła*/
-    color: blanchedalmond;
+    color: black;
     border-radius: 15px;
     /*wygląd kursora*/
     cursor: pointer;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:xx-large; 
+    
+    
 /* czas pojawiania się zmian*/
-    transition: 2s;
+    transition: 1s;
 
 
 }
 /* styl elemntu po nakierownaiu na niego myszką */
     nav ul li:hover{
-        background-color: rgb(48, 214, 229);
+        background-color:pink;
         background-color:azure (39, 84%, 75%);
         color:black;
 
@@ -81,22 +86,24 @@ nav ul li{
         
        /* POPUP COOKIES*/
        .cookies{
-           border:5px dashed red;
+           
            position:fixed;
            bottom:0;
            width:100%;
-           background-color: rgb(245, 207, 138);
-           display:flex;
-           justify-content: space-between;
+           background-color:pink;
+           display: flex;
+           justify-content:space between;
            align-items: center;
            padding:0 5px;
        }
 
 table{
-   background-color: beige;
-   cursor: pointer;
+   background-color: rgba(95, 6, 95, 0.89);
    transition: 3s;
-   align-items: center;
+   align-items:center;
+   
+   
+   
 
 }
   
