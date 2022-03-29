@@ -86,15 +86,16 @@ nav ul li{
         
        /* POPUP COOKIES*/
        .cookies{
-           
+           background-color:pink;
            position:fixed;
            bottom:0;
            width:100%;
-           background-color:calc(pink);
+           
+           background-color:pink;
            display: flex;
            justify-content:space between;
            align-items: center;
-           padding:0 5px;
+           padding: 5px;
 
        }
 
@@ -108,8 +109,39 @@ table{
 
 }
   
+/* MAIN HEADER ( O MNIE )*/
+main > header {
+    border: 10px solid rgba(95, 6, 95, 0.89);
+    padding: 2em
+}
+
+.imgField{
+    text-align: center;
+    border:5px solid pink;
+}
+ .headertext {
+    border: 5px solid pink;
+    /*padding:0 2em;
+    padding-bottom:1em;
+    wjednej lini:
+    góra dół*/
+    padding:0 2em 1em 2em;
+}
 
 
+ 
 
+    
+img{
+    max-width: 100%;
+    border-radius:  10%;
+}
+ 
+    @media (min-width:768px){
+        main > header{
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
-
+        }
+    }
