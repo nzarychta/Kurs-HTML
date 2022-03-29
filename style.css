@@ -110,9 +110,9 @@ table{
 }
   
 /* MAIN HEADER ( O MNIE )*/
-main > header {
+main {
     
-    padding: 2em
+    padding: 2em;
 }
 
 .imgField{
@@ -126,6 +126,7 @@ main > header {
     wjednej lini:
     góra dół*/
     padding:0 2em 1em 2em;
+    /*prawo lewo*/
 }
 
 
@@ -138,10 +139,24 @@ img{
 }
  
     @media (min-width:768px){
-        main > header{
+        main > header,
+        main > article {
             display: flex;
             align-items: center;
             justify-content: center;
 
         }
     }
+/*MAIN ARTICLE (TECHNOLOGIE)*/
+
+.tableField{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+table{
+
+}
