@@ -149,7 +149,7 @@ img{
     @media (min-width:768px){
         main > header,
         main > article,
-        #contact {
+        #Contacts {
             display: flex;
             align-items: center;
             justify-content: center;
@@ -158,11 +158,11 @@ img{
 /* PIERWSZY SPOSÓB*/
         main > header >*,
         main > article >*,
-        #contacts > *{
+        #Contacts > *{
             flex:1;
     }
 
-    }
+}
 /*MAIN ARTICLE (TECHNOLOGIE)*/
 
 .tableField{
@@ -177,6 +177,8 @@ img{
         padding:0 1em;
     }
     #Contacts form{
+
+        
         
         display: flex;
         flex-direction: column;
@@ -192,6 +194,7 @@ img{
         border: 5px solid rgba(95, 6, 95, 0.89);
         border-radius: 6px;
         font-family: inherit;
+        
     }
 
     #Contacts form button{
