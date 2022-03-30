@@ -1,8 +1,13 @@
 body{
     background-color:rgb(83, 77, 77);
     margin:0;
+    font-family: 'Lobster';
 }
 *{box-sizing: border-box;}
+
+html{
+    scroll-behavior: smooth;
+}
     
 
 body > header {
@@ -10,7 +15,7 @@ body > header {
 
 text-align: center;
 background-color: rgb(83, 77, 77);
-font-family:'Courier New', Courier, monospace;
+font-family:'Lobster';
 font-size: x-large;
 }
     
@@ -19,15 +24,16 @@ nav{
     position:sticky;
     top:0;
     background-color: pink;
+    
 
 }
 
 nav ul{
     
-    border: 15px solid rgba(95, 6, 95, 0.89);
     list-style-type:none;
     padding: 0;
     margin:0;
+    
     
     /*DISPLAY FLEX */
 display:flex;
@@ -60,8 +66,10 @@ nav ul li{
     border-radius: 15px;
     /*wygląd kursora*/
     cursor: pointer;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Lobster';
     font-size:xx-large; 
+
+    
     
     
 /* czas pojawiania się zmian*/
@@ -72,26 +80,26 @@ nav ul li{
 /* styl elemntu po nakierownaiu na niego myszką */
     nav ul li:hover{
         background-color:pink;
-        background-color:rgba(95, 6, 95, 0.89);
+        
         color:black;
 
         
     }
     
     nav ul li:active{
-        border-color: rgb(red, green, blue);
+        border-color: pink;
         background-color: rgb(245, 207, 138);
         transition: none
     }
         
        /* POPUP COOKIES*/
        .cookies{
-           background-color:pink;
+           
            position:fixed;
            bottom:0;
            width:100%;
            
-           background-color:pink;
+          
            display: flex;
            justify-content:space between;
            align-items: center;
@@ -140,12 +148,20 @@ img{
  
     @media (min-width:768px){
         main > header,
-        main > article {
+        main > article,
+        #contact {
             display: flex;
             align-items: center;
             justify-content: center;
 
         }
+/* PIERWSZY SPOSÓB*/
+        main > header >*,
+        main > article >*,
+        #contacts > *{
+            flex:1;
+    }
+
     }
 /*MAIN ARTICLE (TECHNOLOGIE)*/
 
@@ -156,4 +172,38 @@ img{
     align-items: center;
 }
     
+    #Contacts{
+        
+        padding:0 1em;
+    }
+    #Contacts form{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #Contacts form input,
+    #Contacts form textarea{
+        background-color: pink;
+        width: 50%;
+        padding: .5rem;
+        outline:0;
+        margin-bottom: .5rem;
+        border: 5px solid rgba(95, 6, 95, 0.89);
+        border-radius: 6px;
+        font-family: inherit;
+    }
+
+    #Contacts form button{
+        padding: .2rem 1rem;
+        border-radius: 8px;
+        outline:0;
+        border:none;
+
+
+    }
+    footer{
+        padding: .5em 1.5em;
+        text-align: right;
+    }
     
