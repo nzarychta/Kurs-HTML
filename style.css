@@ -1,6 +1,7 @@
 body{
     background-color:rgb(83, 77, 77);
-    margin:0;
+    margin: 0px;
+    
     font-family: 'Lobster';
 }
 *{box-sizing: border-box;}
@@ -149,7 +150,8 @@ img{
     @media (min-width:768px){
         main > header,
         main > article,
-        #Contacts {
+        #Contacts,
+        #Projects {
             display: flex;
             align-items: center;
             justify-content: center;
@@ -158,7 +160,8 @@ img{
 /* PIERWSZY SPOSÓB*/
         main > header >*,
         main > article >*,
-        #Contacts > *{
+        #Contacts
+        #Projects > *{
             flex:1;
     }
 
@@ -209,4 +212,37 @@ img{
         padding: .5em 1.5em;
         text-align: right;
     }
+
+  /*karuzela*/
+  .carousel{
+      
+      display: flex;
+      align-items: center;
+      
+
+  }
+  .cItem{
+      
+      flex:1;
+      padding: .5em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: 0,5s  }
+      
+  .cItem p{display: none;}
+  
+   /*aktywny element środkowy*/
+  .active{
+      
+      flex: 3;
+  }
+  .active p{
+      display: block;
+  }
+
     
+
+
